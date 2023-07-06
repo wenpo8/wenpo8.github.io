@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="icon" href="./img/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <header>
+        <h1>Bienvenido!</h1>
+        <nav class="navegacion">
+          <img class="logo" src="./img/LOGOapp-01.png" alt="Logo"> 
+          <ul>
+            <li> <input type="button" value="+" id="agregar"> </li>
+            <li><a href="./calendar.html" class="calendar-button">Ver Calendario</a></li>
+            <li><button id="openModal">Información</button></li>
+          </ul>
+          </nav>
+      </header>
+    <aside>
+        <div>
+            <button id="cerrar">X</button>
+        </div>
+        <form>
+            <input type="text" placeholder="Titulo..." id="titulo" required>
+            <textarea id="contenido" cols="30" rows="10" placeholder="Tu nota..."required></textarea>
+            <input type="submit" value="Guardar" id="guardar">
+        </form>
+    </aside>
+    <section>
+      
+    </section>
+    <div id="myModal" class="modal esconder" >
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="creators">
+          <div class="creator">
+            <img src="./img/porfile kenneth-02.png" alt="Kenneth Machenzie">
+            <h3>Kenneth Mackenzie</h3>
+          </div>
+          <div class="creator">
+            <img src="./img/porfilewen_-01.png" alt="Wendy Reyes">
+            <h3>Wendy Reyes</h3>
+          </div>
+          <div class="creator">
+            <img src="./img/logodavinci.png" alt="Escuela Da Vinci">
+            <h3>Diseño y programación web I</h3>
+            <p>Escuela Da Vinci
+              Diseño Multimedial Turno noche
+              Comisión B - 2023 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+  
+  <footer>
+    <p>Diseño y programación web I</p>
+  </footer>
+ 
+  <script src="./code.jquery.com_jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+  <script src="./maintarea.js"></script>
+</body>
+</html>
